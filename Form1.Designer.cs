@@ -98,7 +98,7 @@
             // 
             uputstvoToolStripMenuItem.Image = (Image)resources.GetObject("uputstvoToolStripMenuItem.Image");
             uputstvoToolStripMenuItem.Name = "uputstvoToolStripMenuItem";
-            uputstvoToolStripMenuItem.Size = new Size(180, 22);
+            uputstvoToolStripMenuItem.Size = new Size(134, 22);
             uputstvoToolStripMenuItem.Text = "Uputstvo";
             uputstvoToolStripMenuItem.Click += uputstvoToolStripMenuItem_Click;
             // 
@@ -106,7 +106,7 @@
             // 
             informacijaToolStripMenuItem.Image = (Image)resources.GetObject("informacijaToolStripMenuItem.Image");
             informacijaToolStripMenuItem.Name = "informacijaToolStripMenuItem";
-            informacijaToolStripMenuItem.Size = new Size(180, 22);
+            informacijaToolStripMenuItem.Size = new Size(134, 22);
             informacijaToolStripMenuItem.Text = "Informacija";
             informacijaToolStripMenuItem.Click += informacijaToolStripMenuItem_Click;
             // 
@@ -121,7 +121,7 @@
             // 
             otvoriFajlToolStripMenuItem.Image = (Image)resources.GetObject("otvoriFajlToolStripMenuItem.Image");
             otvoriFajlToolStripMenuItem.Name = "otvoriFajlToolStripMenuItem";
-            otvoriFajlToolStripMenuItem.Size = new Size(180, 22);
+            otvoriFajlToolStripMenuItem.Size = new Size(165, 22);
             otvoriFajlToolStripMenuItem.Text = "Otvori aktivni fajl";
             otvoriFajlToolStripMenuItem.Click += otvoriFajlToolStripMenuItem_Click;
             // 
@@ -129,7 +129,7 @@
             // 
             izaberiAktivniFajlToolStripMenuItem.Image = (Image)resources.GetObject("izaberiAktivniFajlToolStripMenuItem.Image");
             izaberiAktivniFajlToolStripMenuItem.Name = "izaberiAktivniFajlToolStripMenuItem";
-            izaberiAktivniFajlToolStripMenuItem.Size = new Size(180, 22);
+            izaberiAktivniFajlToolStripMenuItem.Size = new Size(165, 22);
             izaberiAktivniFajlToolStripMenuItem.Text = "Izaberi aktivni fajl";
             izaberiAktivniFajlToolStripMenuItem.Click += izaberiAktivniFajlToolStripMenuItem_Click;
             // 
@@ -144,7 +144,7 @@
             // 
             komandeToolStripMenuItem.Image = (Image)resources.GetObject("komandeToolStripMenuItem.Image");
             komandeToolStripMenuItem.Name = "komandeToolStripMenuItem";
-            komandeToolStripMenuItem.Size = new Size(180, 22);
+            komandeToolStripMenuItem.Size = new Size(125, 22);
             komandeToolStripMenuItem.Text = "Komande";
             komandeToolStripMenuItem.Click += komandeToolStripMenuItem_Click;
             // 
