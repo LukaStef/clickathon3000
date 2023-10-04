@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.6.33712.159
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "clickathon3000", "clickathon3000.csproj", "{1AA285E7-1600-4603-85A3-02A33596D500}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{1AA285E7-1600-4603-85A3-02A33596D500}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1AA285E7-1600-4603-85A3-02A33596D500}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1AA285E7-1600-4603-85A3-02A33596D500}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1AA285E7-1600-4603-85A3-02A33596D500}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {53C55BE7-D982-4470-8C42-AFE2FD1AF109}
+	EndGlobalSection
+EndGlobal
