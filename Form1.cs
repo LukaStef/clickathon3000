@@ -153,9 +153,11 @@ namespace clickathon3000
                     {
                         IzvrsiKomanduBezArg(trenutnaKomanda);
                     }
-                    //Refresh();
-                    //lblTrenutnaKomanda.Text = $"Trenutna komanda: {trenutnaKomanda}";
+                    Thread.Sleep(1000);
+                    Refresh();
+                    lblTrenutnaKomanda.Text = $"Trenutna komanda: {trenutnaKomanda}";
                 }
+                
             }
         }
         private void IzvrsiKomanduSaArg(string trenutnaKomanda)
@@ -163,7 +165,7 @@ namespace clickathon3000
             string[] celaKomanda = trenutnaKomanda.Split(": ");
             string samaKomanda = celaKomanda[0];
             string argument = celaKomanda[1];
-            //lblTrenutnaKomanda.Text = $"Trenutna komanda: {trenutnaKomanda}";
+            lblTrenutnaKomanda.Text = $"Trenutna komanda: {trenutnaKomanda}";
             switch (samaKomanda)
             {
                 case "move":
@@ -187,13 +189,13 @@ namespace clickathon3000
                     ZaustaviTajmer();
                     break;
             }
-            //Refresh();
-            //lblTrenutnaKomanda.Text = $"Trenutna komanda: {trenutnaKomanda}";
+            Refresh();
+            lblTrenutnaKomanda.Text = $"Trenutna komanda: {trenutnaKomanda}";
         }
 
         private void IzvrsiKomanduBezArg(string trenutnaKomanda)
         {
-            //lblTrenutnaKomanda.Text = $"Trenutna komanda: {trenutnaKomanda}";
+            lblTrenutnaKomanda.Text = $"Trenutna komanda: {trenutnaKomanda}";
             switch (trenutnaKomanda)
             {
                 case "leftclick":
@@ -213,8 +215,8 @@ namespace clickathon3000
                     ZaustaviTajmer();
                     break;
             }
-            //Refresh();
-            //lblTrenutnaKomanda.Text = $"Trenutna komanda: {trenutnaKomanda}";
+            Refresh();
+            lblTrenutnaKomanda.Text = $"Trenutna komanda: {trenutnaKomanda}";
         }
 
         private void Form1_Load(object sender, EventArgs e)
@@ -268,7 +270,7 @@ namespace clickathon3000
         {
             try
             {
-                argument = argument.Replace(' ', '\0');
+                //argument = argument.Replace(' ', '\0');
                 string[] podela = argument.Split(",");
                 int X = int.Parse(podela[0]);
                 int Y = int.Parse(podela[1]);

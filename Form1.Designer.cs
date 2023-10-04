@@ -215,7 +215,6 @@
             lblTrenutnaKomanda.Size = new Size(109, 15);
             lblTrenutnaKomanda.TabIndex = 9;
             lblTrenutnaKomanda.Text = "Trenutna komanda:";
-            lblTrenutnaKomanda.Visible = false;
             // 
             // Form1
             // 
