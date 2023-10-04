@@ -252,7 +252,8 @@ namespace clickathon3000
                 "enter - simulira pritiskanje dugmeta enter\n" +
                 "ctrla - simulira selektovanje svega (ctrl + a)\n" +
                 "curl: <url> - gađa uneti url sa praznim postom\n" +
-                "pause: n - zaustavlja rad za n sekundi\n\n";
+                "pause: n - zaustavlja rad za n sekundi\n" +
+                "rem: <tekst> - ova komande predstavlja komentar i nema funkciju\n";
             i.ShowDialog();
         }
         private static void LeviKlik()

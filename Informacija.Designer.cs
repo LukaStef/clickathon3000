@@ -56,13 +56,13 @@
             label2.BorderStyle = BorderStyle.FixedSingle;
             label2.Location = new Point(12, 47);
             label2.Name = "label2";
-            label2.Size = new Size(256, 209);
+            label2.Size = new Size(256, 247);
             label2.TabIndex = 1;
             label2.Text = "tekst";
             // 
             // button1
             // 
-            button1.Location = new Point(12, 289);
+            button1.Location = new Point(12, 327);
             button1.Name = "button1";
             button1.Size = new Size(256, 23);
             button1.TabIndex = 2;
@@ -96,7 +96,7 @@
             // linkLabel1
             // 
             linkLabel1.AutoSize = true;
-            linkLabel1.Location = new Point(12, 256);
+            linkLabel1.Location = new Point(12, 294);
             linkLabel1.Name = "linkLabel1";
             linkLabel1.Size = new Size(185, 15);
             linkLabel1.TabIndex = 6;
@@ -107,7 +107,7 @@
             // linkLabel2
             // 
             linkLabel2.AutoSize = true;
-            linkLabel2.Location = new Point(12, 271);
+            linkLabel2.Location = new Point(12, 309);
             linkLabel2.Name = "linkLabel2";
             linkLabel2.Size = new Size(243, 15);
             linkLabel2.TabIndex = 7;
@@ -119,7 +119,7 @@
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(280, 324);
+            ClientSize = new Size(280, 362);
             Controls.Add(linkLabel2);
             Controls.Add(linkLabel1);
             Controls.Add(pictureBox2);
