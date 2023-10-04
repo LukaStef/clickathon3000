@@ -35,6 +35,7 @@
             pictureBox1 = new PictureBox();
             pictureBox2 = new PictureBox();
             linkLabel1 = new LinkLabel();
+            linkLabel2 = new LinkLabel();
             ((System.ComponentModel.ISupportInitialize)pictureBox1).BeginInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox2).BeginInit();
             SuspendLayout();
@@ -61,7 +62,7 @@
             // 
             // button1
             // 
-            button1.Location = new Point(12, 281);
+            button1.Location = new Point(12, 289);
             button1.Name = "button1";
             button1.Size = new Size(256, 23);
             button1.TabIndex = 2;
@@ -101,12 +102,25 @@
             linkLabel1.TabIndex = 6;
             linkLabel1.TabStop = true;
             linkLabel1.Text = "https://www.lukastefanovic.com/";
+            linkLabel1.LinkClicked += linkLabel1_LinkClicked;
+            // 
+            // linkLabel2
+            // 
+            linkLabel2.AutoSize = true;
+            linkLabel2.Location = new Point(12, 271);
+            linkLabel2.Name = "linkLabel2";
+            linkLabel2.Size = new Size(243, 15);
+            linkLabel2.TabIndex = 7;
+            linkLabel2.TabStop = true;
+            linkLabel2.Text = "https://github.com/LukaStef/clickathon3000";
+            linkLabel2.LinkClicked += linkLabel2_LinkClicked;
             // 
             // Informacija
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(280, 316);
+            ClientSize = new Size(280, 324);
+            Controls.Add(linkLabel2);
             Controls.Add(linkLabel1);
             Controls.Add(pictureBox2);
             Controls.Add(pictureBox1);
@@ -134,5 +148,6 @@
         private PictureBox pictureBox1;
         private PictureBox pictureBox2;
         private LinkLabel linkLabel1;
+        private LinkLabel linkLabel2;
     }
 }
