@@ -389,7 +389,7 @@ namespace clickathon3000
         private void informacijaToolStripMenuItem_Click(object sender, EventArgs e)
         {
             Prenos.Naslov = "Informacija";
-            Prenos.Tekst = "Autor: Luka Stefanović\n\nVerzija: 1.0\n\nlukastef42@gmail.com";
+            Prenos.Tekst = "Autor: Luka Stefanović\n\nVerzija: 1.0.2\n\nlukastef42@gmail.com";
             i.ShowDialog();
         }
         private void otvoriFajlToolStripMenuItem_Click(object sender, EventArgs e)
