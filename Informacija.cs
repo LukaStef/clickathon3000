@@ -33,8 +33,15 @@ namespace clickathon3000
 
         private void pictureBox1_Click(object sender, EventArgs e)
         {
-            SoundPlayer player = new(@"lajanje.wav");
-            player.Play();
+            try
+            {
+                SoundPlayer player = new(@"lajanje.wav");
+                player.Play();
+            }
+            catch (Exception)
+            {
+                MessageBox.Show("Greška: fajl nije pronađen","Greška",MessageBoxButtons.OK,MessageBoxIcon.Error);
+            }
         }
 
         private void linkLabel1_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)

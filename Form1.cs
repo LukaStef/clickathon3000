@@ -248,7 +248,7 @@ namespace clickathon3000
                 "leftclick - simulira levi klik\n" +
                 "rightclick - simulira desni klik\n" +
                 "text: <tekst> - unosi tekst\n" +
-                "date: format;n - ispisuje trenutni datum i dodaje mu n dana (deo za dodavanje dana nije neophodan, broj dana može biti manji od nule)\n" +
+                "date: datum(dd.MM.yyyy);n - ispisuje trenutni datum i dodaje mu n dana (deo za dodavanje dana nije neophodan, broj dana može biti manji od nule)\n" +
                 "enter - simulira pritiskanje dugmeta enter\n" +
                 "ctrla - simulira selektovanje svega (ctrl + a)\n" +
                 "curl: <url> - gađa uneti url sa praznim postom\n" +
