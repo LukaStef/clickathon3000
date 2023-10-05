@@ -323,11 +323,11 @@ namespace clickathon3000
             try
             {
                 argument = argument.Replace(' ', '\0');
-                if (!argument.Contains('&'))
+                if (!argument.Contains(';'))
                     SendKeys.SendWait(DateTime.Now.ToString(argument));
                 else
                 {
-                    string[] podela = argument.Split('&');
+                    string[] podela = argument.Split(';');
                     string format = podela[0];
                     int dani = int.Parse(podela[1]);
                     DateTime datum = DateTime.Now.AddDays(dani);
