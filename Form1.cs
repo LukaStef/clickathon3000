@@ -157,7 +157,7 @@ namespace clickathon3000
                     Refresh();
                     lblTrenutnaKomanda.Text = $"Trenutna komanda: {trenutnaKomanda}";
                 }
-                
+
             }
         }
         private void IzvrsiKomanduSaArg(string trenutnaKomanda)
@@ -405,6 +405,14 @@ namespace clickathon3000
             {
                 aktivanFajl = openFileDialog1.FileName;
             }
+        }
+
+        private void checkBox1_CheckedChanged(object sender, EventArgs e)
+        {
+            if (checkBox1.Checked)
+                TopMost = true;
+            else
+                TopMost = false;
         }
     }
 }

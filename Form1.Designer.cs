@@ -50,6 +50,7 @@
             btnPocniOdmah = new Button();
             openFileDialog1 = new OpenFileDialog();
             lblTrenutnaKomanda = new Label();
+            checkBox1 = new CheckBox();
             menuStrip1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)numericUpDown1).BeginInit();
             SuspendLayout();
@@ -216,11 +217,23 @@
             lblTrenutnaKomanda.TabIndex = 9;
             lblTrenutnaKomanda.Text = "Trenutna komanda:";
             // 
+            // checkBox1
+            // 
+            checkBox1.AutoSize = true;
+            checkBox1.Location = new Point(12, 140);
+            checkBox1.Name = "checkBox1";
+            checkBox1.Size = new Size(186, 19);
+            checkBox1.TabIndex = 10;
+            checkBox1.Text = "Aplikacija je uvek iznad ostalih";
+            checkBox1.UseVisualStyleBackColor = true;
+            checkBox1.CheckedChanged += checkBox1_CheckedChanged;
+            // 
             // Form1
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(314, 135);
+            ClientSize = new Size(314, 171);
+            Controls.Add(checkBox1);
             Controls.Add(lblTrenutnaKomanda);
             Controls.Add(btnPocniOdmah);
             Controls.Add(numericUpDown1);
@@ -234,7 +247,6 @@
             Icon = (Icon)resources.GetObject("$this.Icon");
             MainMenuStrip = menuStrip1;
             MaximizeBox = false;
-            MaximumSize = new Size(334, 178);
             MinimumSize = new Size(334, 178);
             Name = "Form1";
             Text = "Clickathon 3000";
@@ -268,5 +280,6 @@
         private ToolStripMenuItem izaberiAktivniFajlToolStripMenuItem;
         private OpenFileDialog openFileDialog1;
         private Label lblTrenutnaKomanda;
+        private CheckBox checkBox1;
     }
 }
